@@ -1,0 +1,17 @@
+# Ignore unnecessary files
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.venv/
+.vscode/
+.ipynb_checkpoints/
+
+# Ignore local data handled by LFS
+*.csv
+*.joblib
+
+# Ignore Windows system junk
+AppData/
